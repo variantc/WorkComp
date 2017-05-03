@@ -14,3 +14,4 @@ def test_trapezoidal_one_exact_result():
     print(success)
     msg = "error=%g > tolerange=%g" %(error,tol)
     assert success, msg
+    #test
