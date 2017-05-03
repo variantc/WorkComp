@@ -6,7 +6,7 @@ def test_trapezoidal_one_exact_result():
     v = lambda t: 3*(t**2)*exp(t**3)
     n = 2
     computed = trapezoidal(v,0,1,n)
-    expected = 2.463742041244344
+    expected = 2.463642041244344
     error = abs(expected - computed)
     print(error)
     tol = 1e-14
