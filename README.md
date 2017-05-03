@@ -1,7 +1,7 @@
 # WorkComp
 Work Computer
 
-# from hplgit.github.io/teamods/bitgit/._Langtangen_bitbit-bootsrap004.html
+# from hplgit.github.io/teamods/bitgit/Langtangen_bitbit-bootsrap004.html
 #
 
 # To pull
