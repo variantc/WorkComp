@@ -1,5 +1,6 @@
 def test_trapezoidal_conv_rate():
     """check empirical convergence rates against the expected -2"""
+    from convergence_rates import convergence_rates
     from math import exp
     v = lambda t: 3*(t**2)*exp(t**3)
     V = lambda t: exp(t**3)

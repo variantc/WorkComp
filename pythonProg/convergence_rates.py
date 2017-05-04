@@ -8,7 +8,7 @@ def convergence_rates(f,F,a,b,num_experiments=14):
     r = zeros(num_experiments - 1)
     for i in range(num_experiments):
         n[i] = 2**(i+1)
-        computed = trapezoidal(f,a,b,n)
+        computed = trapezoidal(f,a,b,n[i])
         E[i] = abs(expected - computed)
         if i>0:
             r_im1 = log(E[i]/E[i-1])/log(float(n[i])/n[i-1])
